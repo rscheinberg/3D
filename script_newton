@@ -1,0 +1,41 @@
+ident
+#frame
+box
+100 400 0 200 400 200
+#supports
+line
+125 400 0 125 25 -100
+line
+175 400 0 175 25 -100
+line
+225 400 0 225 25 -100
+line
+275 400 0 400 75 -100
+line
+125 400 -200 125 25 -100
+line
+175 400 -200 175 25 -100
+line
+225 400 -200 225 25 -100
+line
+275 400 -200 400 75 -100
+#spheres
+sphere
+125 25 -100 25 75
+sphere
+175 25 -100 25 75
+sphere
+225 25 -100 25 75
+sphere
+400 75 -100 25 75
+#translate
+translate
+50 25 0
+rotate
+y 20
+rotate
+x 15
+apply
+#save
+save
+newton.png
